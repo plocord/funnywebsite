@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔥 Welcome to My Docker Site</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .image {
+      width: 200px;
+      height: 200px;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image:hover {
+      transform: scale(1.05);
+    }
+
+    .content {
+      max-width: 600px;
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      background: linear-gradient(to right, #00ffff, #ff00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-bottom: 1rem;
+    }
+
+    .content a {
+      color: #00ffff;
+      text-decoration: none;
+      border-bottom: 1px solid #00ffff;
+      transition: all 0.3s;
+    }
+
+    .content a:hover {
+      color: #ff00ff;
+      border-bottom: 1px solid #ff00ff;
+    }
+
+    .gif-container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .gif-container img {
+      max-width: 80%;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="image">
+      <img src="Funnycat.jpg" alt="Left Side Image">
+    </div>
+
+    <div class="content">
+      <h1>👋 Welcome, Docker Wizard!</h1>
+      <p>If u see this message it means MY DOCKERFILE works and ur a rizzler for trying ts. Typs. THis is only made for educational purposes only im not a professioanl</p>
+      <p>
+        My profile: <a href="https://github.com/plocord/required-docker-web" target="_blank">ghub 😭😭</a>
+      </p>
+    </div>
+
+    <div class="image">
+      <img src="Funnycat2.jpg" alt="Right Side Image">
+    </div>
+  </div>
+
+  <div class="gif-container">
+    <img src="worried-scared.gif" alt="Cool GIF">
+  </div>
+</body>
+</html>
